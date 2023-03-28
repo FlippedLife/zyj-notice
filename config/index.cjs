@@ -23,14 +23,18 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ochWO56OmRb8HftiEd17I2hIXzns',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'o1ZDFGp7oJ3YgAS7Wdle8znjrl8KZm293bUe_BTK_b8',
+      useTemplateId: 'uyRHWKvPu6KrbYkM3rjRy7U9du2saI0--8ld47UBIaU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '7-11',
+      horoscopeDate: '6-29',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
+          type: '*生日', name: '自己', year: '1998', date: '05-12',
+        },
+        {
           type: '*生日', name: '丁家宝', year: '1998', date: '05-18',
         },
+         
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
 //         {
 //           type: '生日', name: '李四', year: '1996', date: '09-31',
